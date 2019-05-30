@@ -20,7 +20,7 @@ pip install pyinstaller
 Example:
 
 ``` cmd
-cd homebank_import
+cd homebank
 pyinstaller.exe --onefile homebank_import.py
 cd dist
 homebank_import.exe
@@ -36,7 +36,7 @@ pip3 install pyinstaller
 Example:
 
 ``` shell
-cd homebank_import
+cd homebank
 # Find the full path of pyinstaller using 'find / -name "pyinstaller"'
 pyinstaller --onefile homebank_import.py
 cd dist
